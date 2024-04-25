@@ -1,0 +1,10 @@
+[
+    {"id":1, "name": "Swimming Pool"},
+    {"id":2, "name": "BBQ"},
+    {"id":3, "name": "Park"},
+    {"id":4, "name": "Gym"},
+    {"id":5, "name": "Transportation"},
+    {"id":6, "name": "Patrol"},
+    {"id":7, "name": "Elevators"},
+    {"id":8, "name": "Picnic Area"}
+]
