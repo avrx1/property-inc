@@ -27,12 +27,12 @@ const Nav = (props: Props) => {
                 </li>
             </ul>
 
-            <div className="border px-3 hidden md:flex md:items-center gap-2 w-[40%] ">
+            <div className="border px-3 hidden md:flex md:items-center gap-2 w-[40%] rounded-full overflow-hidden">
                 <FaSearch/>
-                <input type="input" className="py-[0.8rem]" placeholder="Enter tags"/>
+                <input type="input" className="py-[0.8rem] outline-none" placeholder="Enter tags"/>
             </div>
 
-            <div className="flex gap-2">
+            <div className="hidden sm:flex gap-2">
                 <div className="btn hover:bg-gray-300/20">
                     Login
                 </div>

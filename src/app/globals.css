@@ -16,6 +16,14 @@
     .down{
         transform: rotate(45deg);
     }
+    .up{
+        transform: rotate(225deg);
+        margin-top: 0.1rem;
+    }
+
+    .toggle-shadow{
+        box-shadow: 2px 3px 9px -4px rgba(0,0,0,0.75);
+    }
 }
 
 img{
@@ -32,4 +40,6 @@ input, textarea, button{
     display:block;
     width: 100%;
     outline: none;
+    margin: 0;
+    padding: 0;
 }
