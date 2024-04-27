@@ -22,7 +22,7 @@ const Property = ({params}: {params: {propertyId: string}}) => {
 
         { property.images.map(image => 
         <div className="w-[25%] border flex-shrink-0">
-        <img  src={"/"+image} className="rounded-md"/>
+        <img  src={"/"+image} className="rounded-md object-cover w-full h-full"/>
              </div>       
             )
         }

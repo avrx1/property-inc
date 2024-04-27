@@ -8,7 +8,7 @@ type Props = {}
 
 const Nav = (props: Props) => {
   return (
-    <header className="h-[6rem] w-full sticky bg-white top-0 left-0 font-white border-b mb-8 z-10">
+    <header className="h-[6rem] w-full sticky bg-white top-0 left-0 font-white border-b mb-8 z-30">
         <nav className="flex items-center h-full px-2  gap-4 max-w-[1000px] mx-auto justify-between ">
             {/*<div className="w-8 h-5 flex flex-col items-center justify-between
                 [&>div]:w-full  [&>div]:h-1 [&>div]:bg-black
